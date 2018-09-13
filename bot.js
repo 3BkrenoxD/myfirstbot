@@ -619,13 +619,6 @@ client.on('message',async message => {
 
 
 client.on('message', msg => {
-  if (msg.content === 'discord.gg') {
-   msg.delete(30)
-    msg.reply('ممنوع');
-  }
-});
-
-client.on('message', msg => {
   if (msg.content === 'خخ') {
    msg.delete(30)
     msg.reply('احترم نفسك');
